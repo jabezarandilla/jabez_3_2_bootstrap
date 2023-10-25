@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+   <title>URC Shop</title>
+  </head>
+  
+  <body
+  background="undrrtd.jpg"
+  >
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" align="right">
+        <a class="navbar-brand" href="#" <font color="#113946" size="5" face="AR JULIAN"> Underrated SHOP</a></font>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+            </ul></div>
+        <nav class="navbar navbar-light bg-dark" align-right>
+            <font class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: red">Search</button></font>
+              
+              <style>
+    
+                .modal-overlay {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(236, 103, 15, 0.8);
+                    z-index: 1;
+                    justify-content: center;
+                    align-items: center;
+                }
+        
+               
+                .modal-content {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background-color:#FFF2D8;
+                    padding: 20px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                }
+            </style>
+            <center>
+        
+        <button onclick="openLoginModal()" button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: red">Login</button>
+        
+        
+        <div id="loginModal" class="modal-overlay">
+            <div class="modal-content">
+                <h2 >Login</h2>
+                <form>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+        
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+        
+                    <input type="submit" style="background-color: white" value="Login">
+                </form><br>
+                <button onclick="closeLoginModal()"  style="background-color: white" >Close</button>
+            </div>
+        </div>
+        
+        <script>
+        
+            function openLoginModal() {
+                document.getElementById('loginModal').style.display = 'block';
+            }
+        
+            function closeLoginModal() {
+                document.getElementById('loginModal').style.display = 'none';
+            }
+        </script>
+        </center>
+        </form>
+          </nav>
+     </nav>
+     <hr>
+     <center>
+    <table>
+        <th>
+     <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="hks.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title"><font color="#113946" size="5" face="AR JULIAN">HKS FREE FLOW MUFFLER</h5></font>
+          <p class="card-text">The popular HKS Stainless Steel Hi-Power and Carbon-Ti mufflers are now available in universal exhaust applications.</p>
+          <p class="price">$123</p>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: blue">Add to cart</button>
+        </div>
+      </div>
+    </th>
+    <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="hood.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#113946" size="5" face="AR JULIAN">MUGEN RR HOOD  </h5></font>
+             <p class="card-text"> The Seibon Honda Civic Mugen RR Style Hood - 06-11 Honda Civic Sedan, the quality of this hood is beyond compare.</p>
+             <p class="price">$200</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: blue;">Add to cart</button>
+           </div>
+         </div>
+       </th>
+       <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="mags.jpg" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#113946" size="5" face="AR JULIAN">ROTA MAGS</h5></font>
+             <p class="card-text">ROTA Wheels are manufactured by Philippine Aluminum Wheels, Incorporated, one of the first wheel manufacturers in Asia.</p>
+             <p class="price">$250</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: blue">Add to cart</button>
+           </div>
+         </div>
+       </th>
+       <th>
+        <div class="card" style="width: 18rem;">
+           <img class="card-img-top" src="momo.png" alt="Card image cap">
+           <div class="card-body">
+             <h5 class="card-title"><font color="#113946" size="5" face="AR JULIAN">MOMO SW</h5></font>
+             <p class="card-text">Select your preferred region for official MOMO performance parts and accessories including steering wheels, road wheels, seats, boots, gloves and more.</p>
+             <p class="price">$75</p>
+             <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: blue">Add to cart</button>
+           </div>
+         </div>
+       </th>
+   
+    </table>
+</center>
+<hr>
+  </body>
